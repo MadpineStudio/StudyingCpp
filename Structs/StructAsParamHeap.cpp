@@ -4,6 +4,7 @@ using namespace std;
 struct Data {
     int a;
 };
+
 Data* CreateInHeap()
 {
     Data *data = (Data *) malloc(sizeof(Data));
