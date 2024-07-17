@@ -8,5 +8,6 @@ int main()
     p[0] = 14;
     cout << p[0] << endl;
     delete []p;
+    p = nullptr;
     return 0;
 }
